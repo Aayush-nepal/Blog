@@ -1,0 +1,145 @@
+* {
+    font-family: Georgia, 'Times New Roman', Times, serif !important;
+    margin: 0;
+    padding: 0;
+}
+
+.img {
+    width: 30% !important;
+    border: 2px solid rgb(74, 24, 24);
+    border-radius: 50%;
+}
+
+.row {
+    width: 100% !important;
+    margin: 0 !important;
+    overflow-x: 0 !important;
+}
+
+.title a {
+    font-size: 20px;
+    color: rgb(74, 24, 24) !important;
+}
+.title a:hover{
+    text-decoration: none;
+    color: rgb(195, 169, 41) !important;
+    text-shadow: #888888;
+}
+.shortdescription {
+    font-size: 16px ;
+}
+
+.nav-item a {
+    font-size: medium;
+    font-weight: 500;
+    color: rgb(74, 24, 24) !important;
+}
+
+.nav-item a:hover {
+    text-decoration: none;
+    color: rgb(195, 169, 41) !important;
+    padding: 10px;
+}
+
+.Search {
+    border-radius: 30px !important;
+}
+
+.img-1 {
+    mix-blend-mode: darken !important;
+}
+
+.carouselcontent {
+    display: flex;
+}
+
+.hero-2 {
+    color: white;
+}
+
+/* .card {
+    margin: 25px !important;
+} */
+.Bloging-content {
+    border: 2px solid rgb(74, 24, 24);
+    box-shadow: 2px 2px 2px #888888;
+    border-radius: 10px;
+}
+
+.searching {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.blog-description {
+    font-weight: 400;
+}
+
+@media only screen and (max-width:768px) {
+    .card {
+        /* margin: 0 !important;
+        margin-bottom: 0; */
+        margin: 2px;
+        padding: 0 !important;
+    }
+
+    .card-title {
+        font-size: 16px;
+    }
+
+    .card-text {
+        font-size: 13px;
+        text-align: center;
+    }
+
+    .head01 {
+        font-size: 27px !important;
+        font-weight: 900;
+    }
+
+    .para01 {
+        font-size: 13px;
+    }
+}
+
+.card:hover {
+    box-shadow: 8px 10px 20px rgba(63, 58, 50, 0.7);
+    padding: 1px;
+}
+
+.card-title:hover {
+    color: rgb(74, 24, 24) !important;
+
+}
+
+.service-link:hover {
+    text-decoration: none;
+}
+
+.card-text:hover {
+    text-decoration: none !important;
+    color: rgb(74, 24, 24) !important;
+}
+
+/* .hero-2 {
+    background: rgba(0, 0, 0, 0.7) url('img4.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+    height: 200px;
+} */
+
+.description {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    padding-top: auto;
+}
+
+@media only screen and (max-width:887px) {
+    .description {
+        font-size: 21px;
+    }
+}
+.readmore a:hover{
+    color: blue;
+}
